@@ -1,0 +1,90 @@
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    height: 100%;
+}
+.navContainer{
+    border: solid lightgrey;
+    height: 85px;
+    border-width: 0.3px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    text-align: center;
+}
+.logo{
+    height: 71px;
+    align-items: left;
+}
+.themeContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+    text-align: center;
+
+}
+li{
+    margin-left: 65px;
+}
+.listBoss{
+    display: flex;
+    text-align: left;
+}
+.signin{
+    border-radius: 50px;
+    border-width: 1px;
+    display: inline-block;
+    padding: 7px,16px;
+}
+.Join{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    border-width: 1px;
+    padding: 7px,16px;
+}
+.menuOne{
+    box-sizing: content-box;
+    height: 500px;
+    display: flex;
+    background-color: darkgreen;
+    color:white;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 60px;
+   
+}
+.summer{
+    height: 500px;
+    display: flex;
+    justify-items: right;
+    background-color: green;
+    padding-bottom: 40px;
+}
+.menuTwo{
+    box-sizing: content-box;
+    height: 500px;
+    display: flex;
+    color: white;
+    background-color: darkgreen;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+   
+
+}
+.coffee{
+    height: 500px;
+    display: flex;
+    justify-items: left;
+    background-color: green;
+    padding-bottom: 40px;
+}
+.play{
+    text-align: bottom;
+
+}
+.order{
+    align-items: bottom;
+
+}
